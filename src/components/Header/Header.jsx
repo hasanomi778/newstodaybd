@@ -27,16 +27,16 @@ const Header = () => {
         </div>
         <div className='w-[70%] flex justify-end items-center'>
           <ul className='flex mx-[-16px]'>
-            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'Home' ? 'text-[#EE4736]' : ''}`}>
+            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'Home' ? 'text-[rgb(238,71,54)]' : ''}`}>
               <Link to="/">Home</Link>
             </li>
-            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'News' ? 'text-[#EE4736]' : ''}`}>
+            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'News' ? 'text-[rgb(238,71,54)]' : ''}`}>
               <Link to="/news">News</Link>
             </li>
-            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'About' ? 'text-[#EE4736]' : ''}`}>
+            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'About' ? 'text-[rgb(238,71,54)]' : ''}`}>
               <Link to="/about">About</Link>
             </li>
-            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'Contact' ? 'text-[#EE4736]' : ''}`}>
+            <li className={`text-lg font-medium text-slate-900 hover:text-[#EE4736] p-2 mx-2 duration-300 ${activeMenuItem === 'Contact' ? 'text-[rgb(238,71,54)]' : ''}`}>
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
