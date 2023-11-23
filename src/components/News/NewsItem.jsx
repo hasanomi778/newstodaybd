@@ -7,7 +7,9 @@ export class NewsItem extends Component {
     return (
       <div className="h-full flex flex-col border border-[#ddd]">
         <div>
-          <img src={imgUrl} alt="" className="w-full aspect-[10/6] object-cover" />
+          <Link to="">
+            <img src={imgUrl} alt="" className="w-full aspect-[10/6] object-cover" />
+          </Link>
         </div>
         <div className="w-[80%] h-[1px] bg-[#ddd] mx-auto mt-4"></div>
         <div className="flex flex-col justify-between flex-grow p-3">
